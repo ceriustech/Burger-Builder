@@ -37,11 +37,13 @@
 
 .BuildControl .Less {  
     background-color: #D39952;
+    border-radius: 6px;
     color: white;
 }
 
 .BuildControl .More {
     background-color: #8F5E1E;
+    border-radius: 6px;
     color: white;
 }
 
