@@ -23,3 +23,32 @@
     border-bottom: 4px solid #40a4c8;
     color: #fff;
 }
+
+@media(max-width: 500px) {
+    .NavigationItem {
+        margin: 10px 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .NavigationItem a {
+        color: #40a4c8;
+        text-decoration: none;
+        height: 100%;
+        box-sizing: border-box;
+        display: block;
+        padding: .2em 0;
+        text-align: left;
+    }
+    
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active {
+        background-color: #fff;
+        border-bottom: 2px solid #40a4c8;
+        color: #8f5c2c;
+    }
+}
+

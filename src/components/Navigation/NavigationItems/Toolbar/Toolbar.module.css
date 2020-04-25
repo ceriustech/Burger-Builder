@@ -20,3 +20,14 @@
 .Logo {
     height: 80%;
 }
+
+@media(max-width: 499px) {
+    .Logo {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    .DesktopOnly {
+        display: none;
+    }
+}
