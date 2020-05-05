@@ -18,13 +18,13 @@
 }
 
 .Logo {
+    width: 50px;
     height: 80%;
 }
 
 @media(max-width: 499px) {
     .Logo {
-        margin-bottom: 30px;
-        width: 50%;
+        width: 50px;
     }
 
     .DesktopOnly {
