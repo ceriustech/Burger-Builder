@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Layout.module.css'; 
-import Toolbar from '../Navigation/NavigationItems/Toolbar/Toolbar';
+import Toolbar from '../Navigation/Toolbar/Toolbar';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 
 
