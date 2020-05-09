@@ -16,14 +16,14 @@
     .SideDrawer {
         display: none;
     }
+}
 
-    .Open {
-        transform: translateX(0);
-    }
+.Open {
+    transform: translateX(0);
+}
 
-    .Close {
-        transform: translateX(-100%);
-    }
+.Close {
+    transform: translateX(-100%);
 }
 
 .Logo {
